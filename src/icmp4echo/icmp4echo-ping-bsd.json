@@ -1,0 +1,19 @@
+{
+  "description": "BSD-style ping",
+  "icmp_echo": {
+    "data": [
+      {
+        "type": "time",
+        "epoch": "unix",
+        "byteOrder": "network",
+        "width": 32,
+        "divisors": [1, 1000000]
+      },
+      {
+        "type": "step",
+        "init": 8,
+        "step": 1
+      }
+    ]
+  }
+}
